@@ -24,7 +24,8 @@ allprojects {
         mavenCentral()
         maven {
             url =
-                uri("${System.getenv("ARTIFACTORY_BASE_URL")}/artifactory/mega-gradle/core-ui")
+                //uri("${System.getenv("ARTIFACTORY_BASE_URL")}/artifactory/mega-gradle/core-ui")
+                uri("https://jfrog.gotrack365.com/artifactory/core-ui")
         }
     }
 }
